@@ -1,0 +1,19 @@
+{
+  "name": "geg-vpn-functions",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "firebase deploy --only functions",
+    "serve": "firebase emulators:start --only functions"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.5.0",
+    "firebase-functions": "^6.0.0",
+    "googleapis": "^133.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
